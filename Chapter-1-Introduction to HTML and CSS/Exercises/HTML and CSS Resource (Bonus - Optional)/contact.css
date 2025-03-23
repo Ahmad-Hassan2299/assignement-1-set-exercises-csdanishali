@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+body{
+    width: 99%;
+    height: 97%;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0px 40px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+}
+.search{
+   font-size: 25px;
+}
+.search i{
+    padding: 5px 20px;
+    color: black;
+}
+footer{
+    padding-top: 50px;
+}
+.heading{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: bisque;
+}
+.nav{
+    width: 33.3%;
+    
+}
+h1{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer-content{
+    width: 190px;
+    margin: auto;
+    padding: px;
+    
+}
+.footer-content ul{
+text-align: center;
+}
+.list{
+    padding: 0;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+}
+.list li::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    transition-duration: 5s;
+}
+.list li:hover::before{
+    width: 70px;
+}
+.SocialMedia i:hover{
+    color: orange;
+}
+.bottom-bar p{
+    margin: 0px;
+    font-size: 30px;
+    padding: 30px;
+    padding-left: 500px;
+}
+.SocialMedia{
+    position: absolute;
+    
+    display: flex;
+    justify-items: space-evenly;
+    align-items: center;
+    flex-direction: column;
+   padding:10px;
+   width: 40px;
+   height: 150px;
+   background-color: white;
+    border-radius: 20px;
+    font-size: 20px;
+   
+}
+a{
+    padding: 5px 15px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+    text-underline-position: under;
+}

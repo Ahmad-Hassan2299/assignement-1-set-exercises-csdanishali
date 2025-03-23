@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 99%;
+    height: 97%;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0px 40px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+}
+.search{
+    font-size: 25px;
+}
+.search i{
+    padding: 5px 20px;
+    color: black;
+}
+.heading {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+h1{
+    color: orange;
+    text-align: center;
+}
+.center{
+    padding: 20px;
+    padding-top: 80px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    
+}

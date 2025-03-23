@@ -1,0 +1,66 @@
+body{
+    width: 99%;
+    height: 97%;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.content {
+    padding: 20px;
+    width: 70%;
+    color: bisque;
+}
+.nutrition {
+    padding: 20px;
+    width: 30%;
+    color: white;
+}
+.content, .nutrition {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: bisque;
+    font-family: sans-serif;
+}
+h1 {
+    color: orange;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    color: bisque;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    color: bisque;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    margin-bottom: 10px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0px 40px;
+}
+.search{
+    font-size: 25px;
+}
+.search i{
+    padding: 5px 20px;
+    color: black;
+}

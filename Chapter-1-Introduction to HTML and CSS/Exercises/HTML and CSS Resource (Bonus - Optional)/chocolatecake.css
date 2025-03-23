@@ -1,0 +1,60 @@
+body{
+    width: 99%;
+    height: 97%;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.recipe, .nutrition {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0px 40px;
+}
+.search{
+    font-size: 25px;
+}
+.search i{
+    padding: 5px 20px;
+    color: black;
+}
+.container {
+    display: flex;
+    width: 100%;
+}
+.recipe, .nutrition {
+    padding: 20px;
+    width: 50%;
+}
+.nutrition {
+ color: black;
+}
+.recipe{
+    color: bisque;
+}
+h1 {
+    color: orange;
+}
+h2{
+    color: bisque;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    color: bisque;
+ font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
