@@ -1,0 +1,73 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2;
+    background-image: url('back.png');
+    background-size: cover;
+    background-attachment: fixed;
+    color: bisque;
+}
+.header {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+}
+.navbar a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: bisque;
+    color: black;
+}
+.section {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px;
+    border-radius: 10px;
+}
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: bisque;
+    color: black; /* Increased opacity */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+}
+.button-link:hover {
+    background-color: bisque;
+    box-shadow: 0 0 20px bisque, 0 0 30px bisque, 0 0 40px bisque;
+    color: black; /* Change text color to black on hover */
+}
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.big-button {
+    padding: 15px 30px;
+    font-size: 20px;
+}
+h2 {
+    color: black;
+    border: 2px solid maroon; /* Add border to headings */
+    padding: 10px;
+    background-color:bisque; /* Add background color to headings */
+    display: inline-block;
+}
+p {
+    border: 2px solid maroon; /* Add border to paragraphs */
+    padding: 10px;
+    background-color:( black); /* Add background color to paragraphs */
+    display: inline-block;
+}
