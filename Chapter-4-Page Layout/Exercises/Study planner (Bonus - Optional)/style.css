@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* Header Styles */
+header {
+    background: rgb(133, 1, 1);
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    background: #560303;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.column {
+    background: #ffffff;
+    border: 1px solid rgb(133, 1, 1);
+    border-radius: 5px;
+    padding: 15px;
+    flex: 1;
+    margin: 0 10px;
+}
+
+/* Button Styles */
+.btn {
+    background: rgb(133, 1, 1);
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.btn:hover {
+    background: black;
+    text-decoration: underline;
+    
+    
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgb(133, 1, 1);
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+h2 {
+    color: rgb(133, 1, 1);
+}
