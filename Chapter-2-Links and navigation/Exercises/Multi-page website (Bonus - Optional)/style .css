@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Georgia', serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(130, 1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+header img {
+    height: 110px;
+    width: 150px;
+}
+nav {
+    display: flex;
+    gap: 20px;
+   
+    align-items: center;
+  padding-right: 40px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.hero {
+    background: url('background.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+.hero p {
+    font-size: 1.5rem;
+    max-width: 600px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+.hero button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(130, 1, 1);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    
+}
+.hero button a {
+    color: white;
+    text-decoration: none;
+}
+.hero button:hover {
+    background-color: rgb(180, 0, 0);
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(130, 1, 1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-size: 0.9rem;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+.section {
+    margin: 40px 0;
+}
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
