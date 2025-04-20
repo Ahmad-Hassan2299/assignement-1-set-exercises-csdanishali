@@ -1,0 +1,191 @@
+/* ====================
+   RESET & BASICS
+==================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fafb;
+    color: #111827;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-image: url('screen-0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  padding-bottom: 300px;
+  }
+  
+  /* ====================
+     DARK MODE
+  ==================== */
+  body.dark {
+    background-color: #1f2937;
+    color: #f9fafb;
+    background-image: url('360_F_271500423_Ls3YOwFx6DqHy4nUvAV2P0G2UQwFeQaq.jpg');
+ background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  body.dark .game-container {
+    background-color: #374151;
+    box-shadow: 0 8px 24px rgba(255, 255, 255, 0.05);
+    
+  }
+  
+  body.dark input,
+  body.dark button {
+    border-color: #6b7280;
+  }
+  
+  /* ====================
+     DARK MODE TOGGLE
+  ==================== */
+  #toggleDark {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 8px 12px;
+    border: none;
+    background: #4f46e5;
+    color: white;
+    font-size: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #toggleDark:hover {
+    background: #4338ca;
+   
+  }
+  
+  /* ====================
+     CONTAINER
+  ==================== */
+  .game-container {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 420px;
+    width: 100%;
+    transition: background 0.3s ease;
+    
+  }
+  
+  /* ====================
+     HEADINGS & TEXT
+  ==================== */
+  h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .color-to-guess {
+    font-size: 22px;
+    margin: 15px 0;
+    font-weight: bold;
+  }
+  
+  /* ====================
+     STATUS BAR
+  ==================== */
+  .status {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 15px 0 25px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  /* ====================
+     COLOR OPTIONS
+  ==================== */
+  .color-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .color-btn {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: 3px solid #e5e7eb;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .color-btn:hover {
+    transform: scale(1.05);
+    border-color: #4f46e5;
+  }
+  
+  body.dark .color-btn:hover {
+    border-color: #a5b4fc;
+  }
+  
+  /* ====================
+     MESSAGES
+  ==================== */
+  .message {
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  /* ====================
+     REPLAY BUTTON
+  ==================== */
+  #replayBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4f46e5;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: none;
+  }
+  
+  #replayBtn:hover {
+    background-color: #4338ca;
+  }
+  
+  /* ====================
+     RESPONSIVE
+  ==================== */
+  @media (max-width: 500px) {
+    .game-container {
+      padding: 20px;
+    }
+  
+    .status {
+      grid-template-columns: 1fr;
+    }
+  
+    .color-btn {
+      width: 70px;
+      height: 70px;
+    }
+  
+    #toggleDark {
+      font-size: 16px;
+      padding: 6px 10px;
+    }
+  }
+  

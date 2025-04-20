@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RGB Color Guessing Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Dark mode toggle -->
+  <button id="toggleDark" title="Toggle Dark Mode">🌙</button>
+
+  <!-- Main Game Container -->
+  <div class="game-container">
+    <h1>RGB Color Guessing Game</h1>
+
+    <!-- RGB Value to Guess -->
+    <p class="color-to-guess" id="colorToGuess">RGB(?, ?, ?)</p>
+
+    <!-- Score, Lives, High Score, Timer -->
+    <div class="status">
+      <p>Score: <span id="score">0</span></p>
+      <p>Lives: <span id="lives">3</span></p>
+      <p>High Score: <span id="highScore">0</span></p>
+      <p>⏱ Time: <span id="timer">10</span>s</p>
+    </div>
+
+    <!-- Color Options Go Here -->
+    <div class="color-options" id="colorOptions"></div>
+
+    <!-- Message Output -->
+    <p class="message" id="message"></p>
+
+    <!-- Replay Button -->
+    <button id="replayBtn" onclick="startGame()">Replay Game</button>
+  </div>
+
+  <!-- JavaScript File -->
+  <script src="index.js"></script>
+</body>
+</html>
