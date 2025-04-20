@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Petrol Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body style="background-image: url('best-petrol-stations-in-the-uae-6.jpg');">
+  <div class="container">
+    <h1>Petrol Calculator</h1>
+
+    <!-- Input for petrol cost per liter -->
+    <label for="pricePerLitre">Cost per Litre ($):</label>
+    <input type="number" id="pricePerLitre" value="1.72" />
+
+    <!-- Input for number of liters purchased -->
+    <label for="litresPurchased">Litres Purchased:</label>
+    <input type="number" id="litresPurchased" value="0" />
+
+    <!-- Button to trigger calculation -->
+    <button onclick="calculateTotal()">Calculate Total</button>
+
+    <!-- Paragraph to display the result -->
+    <p id="totalCost">Total Cost: $0.00</p>
+  </div>
+
+  <!-- Link to JavaScript file -->
+  <script src="index.js"></script>
+</body>
+</html>
